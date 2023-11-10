@@ -1,3 +1,4 @@
+// this wont work just for reference
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
