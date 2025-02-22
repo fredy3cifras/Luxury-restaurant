@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 h2 {
 	font-weight: 400;
 	font-size: 38px;
-	color: #d4af37; /* Golden color for header */
+	color: #b8860b; /* Dark golden color for header */
 	text-transform: uppercase;
 	position: relative;
 	margin-top: 10px;
@@ -29,7 +29,7 @@ h2 {
 h2::after {
 	position: absolute;
 	content: "";
-	background: #d4af37; /* Golden color */
+	background: #b8860b; /* Dark golden color */
 	height: 2px;
 	width: 70px;
 	bottom: 0;
@@ -41,14 +41,14 @@ h2::after {
 h3 {
 	font-size: 24px;
 	font-weight: 400;
-	color: #d4af37; /* Golden color for subheadings */
+	color: #b8860b; /* Dark golden color for subheadings */
 }
 
 h4 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #d4af37; /* Golden color for subheadings */
+	color: #b8860b; /* Dark golden color for subheadings */
 }
 
 h5 {
@@ -138,7 +138,7 @@ ul, ol {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #d4af37 !important; /* Golden color for active item */
+	color: #b8860b !important; /* Dark golden color for active item */
 	background-color: transparent;
 }
 
@@ -147,8 +147,8 @@ ul, ol {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #d4af37; /* Golden color */
-	border-color: #d4af37;
+	background-color: #b8860b; /* Dark golden color */
+	border-color: #b8860b;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -177,7 +177,6 @@ ul, ol {
 	margin: 0 auto;
 	margin-bottom: 40px;
 }
-
 /* Custom Button */
 .btn-custom {
 	text-transform: uppercase;
