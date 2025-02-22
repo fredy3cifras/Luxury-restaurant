@@ -106,8 +106,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0 40px 0 40px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	/*color: #d43031;*/
-	color: #afb2e7;
+	color: #d4af37; /* Color dorado */
+	font-weight: 700; /* Hacer más gruesa la fuente al pasar el mouse */
 }
 .on {
 	background-color: #262626 !important;
