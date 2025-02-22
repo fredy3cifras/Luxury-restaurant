@@ -354,3 +354,29 @@ ul, ol {
 #footer a:hover {
 	color: #eee; /* Lighter color on hover */
 }
+
+/* Section Separators */
+.section-separator {
+	border-top: 1px solid #f0f0f0;
+	margin: 20px 0;
+}
+
+/* Specific Sections with Separators */
+#our-specials {
+	padding: 60px 0;
+}
+
+#our-specials::before, #our-specials::after,
+#restaurant-menu::before, #restaurant-menu::after,
+#gallery::before, #gallery::after,
+#meet-our-chef::before, #meet-our-chef::after {
+	content: '';
+	display: block;
+	border-top: 1px solid #f0f0f0;
+	margin: 20px 0;
+}
+
+/* Padding for Content */
+.section-content {
+	padding: 20px 0;
+}
