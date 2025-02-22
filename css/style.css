@@ -444,16 +444,6 @@ ul, ol {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-
-/* Main Menu Title - Ensure this is also in Golden */
-#restaurant-menu h2 {
-	font-size: 32px;
-	color: #d43031; /* Golden color for "Menu" title */
-	font-weight: 600;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
 /* Menu Section */
 #restaurant-menu {
 	padding: 100px 0 60px 0;
@@ -481,7 +471,7 @@ ul, ol {
 	font-size: 32px; /* Increased font size */
 	display: block;
 	font-weight: 400;
-	color: #d43031; /* Golden color for section titles */
+	color: #444; /* Dark color */
 	margin: 20px 0;
 	text-align: center;
 }
