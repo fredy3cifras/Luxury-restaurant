@@ -430,6 +430,13 @@ ul, ol {
 	color: #d43031; /* Golden color for menu item names */
 }
 
+/* Menu Item Name Styling */
+.menu-item-name {
+	font-size: 22px; /* Increased font size */
+	font-weight: 600;
+	color: #fff; /* White color for menu item names */
+}
+
 /* Menu Item Description Styling */
 .menu-item-description {
 	font-size: 18px; /* Increased font size */
@@ -439,7 +446,7 @@ ul, ol {
 /* Menu Section Title Styling */
 .menu-section-title {
 	font-size: 28px;
-	color: #d43031; /* Golden color for section titles */
+	color: #d43031; /* Golden color for section titles (like Breakfast, Main Course) */
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -457,6 +464,7 @@ ul, ol {
 #restaurant-menu h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
+	color: #d43031; /* Golden color for the main "Menu" title */
 }
 
 #restaurant-menu .menu-section hr {
@@ -470,8 +478,8 @@ ul, ol {
 #restaurant-menu .menu-section-title {
 	font-size: 32px; /* Increased font size */
 	display: block;
-	font-weight: 400;
-	color: #444; /* Dark color */
+	font-weight: 600;
+	color: #d43031; /* Golden color */
 	margin: 20px 0;
 	text-align: center;
 }
@@ -482,8 +490,8 @@ ul, ol {
 }
 
 #restaurant-menu .menu-item-name {
-	font-weight: 400;
-	font-size: 20px; /* Increased font size */
+	font-weight: 600;
+	font-size: 22px; /* Increased font size */
 	color: #fff; /* White color for item names */
 	margin-bottom: 10px;
 }
@@ -491,6 +499,7 @@ ul, ol {
 #restaurant-menu .menu-item-description {
 	font-size: 15px;
 	width: 85%;
+	color: #777;
 }
 
 #restaurant-menu .menu-item-price {
