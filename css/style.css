@@ -367,7 +367,8 @@ ul, ol {
 }
 
 #our-specials::after,
-#menu-section::before,
+#restaurant-menu::before,
+#restaurant-menu::after,
 #gallery::before, #gallery::after,
 #meet-our-chef::before, #meet-our-chef::after {
 	content: '';
