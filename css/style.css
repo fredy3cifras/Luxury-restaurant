@@ -366,7 +366,8 @@ ul, ol {
 	padding: 60px 0;
 }
 
-#our-specials::before, #menu-section::before,
+#our-specials::after,
+#menu-section::before,
 #gallery::before, #gallery::after,
 #meet-our-chef::before, #meet-our-chef::after {
 	content: '';
