@@ -417,3 +417,36 @@ ul, ol {
 .section-content {
 	padding: 20px 0;
 }
+
+/* Mobile Adjustments for "Meet Our Chef" Section */
+@media (max-width: 767px) {
+	/* Adjust Meet Our Chef Section */
+	#meet-our-chef {
+		padding: 50px 10px; /* Adjust padding for mobile */
+	}
+
+	#meet-our-chef img {
+		width: 100%; /* Make the image responsive */
+		max-width: 100%;
+		height: auto; /* Ensure the height adjusts proportionally */
+	}
+
+	#meet-our-chef .section-title {
+		font-size: 24px; /* Reduce title font size */
+		text-align: center; /* Center-align the title */
+		margin-bottom: 15px;
+	}
+
+	#meet-our-chef .section-description {
+		font-size: 16px; /* Adjust font size for better readability */
+		width: 90%; /* Decrease the width to give some margin */
+		margin: 0 auto; /* Center-align the description */
+	}
+
+	#meet-our-chef .section-text {
+		font-size: 14px; /* Adjust font size for mobile */
+		line-height: 1.6;
+		width: 90%; /* Decrease width for mobile */
+		margin: 0 auto; /* Center-align text */
+	}
+}
