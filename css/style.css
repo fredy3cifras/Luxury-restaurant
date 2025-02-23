@@ -159,6 +159,43 @@ ul, ol {
 	background-color: #FFF;
 }
 
+/* Mobile Styles */
+@media (max-width: 767px) {
+	#menu {
+		display: block;
+		width: 100%;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
+
+	.navbar-default .navbar-nav {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-nav > li {
+		width: 100%;
+		display: block;
+	}
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+	#menu {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
+}
+
 /* Section Titles */
 .section-title {
 	margin-bottom: 70px;
