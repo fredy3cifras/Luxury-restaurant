@@ -425,6 +425,7 @@ ul, ol {
 		padding: 20px 10px; /* Adjust padding for mobile */
 		width: 100%; /* Make sure the container takes up the full width */
 		box-sizing: border-box; /* Include padding in total width */
+		overflow: hidden; /* Hide overflow to avoid content spilling over */
 	}
 
 	#meet-our-chef img {
@@ -432,18 +433,24 @@ ul, ol {
 		max-width: 100%; /* Prevent image from overflowing */
 		height: auto; /* Maintain the image's aspect ratio */
 		object-fit: cover; /* Cover the container without distorting the image */
+		object-position: center; /* Keep the center of the image visible */
 	}
 
 	#meet-our-chef .section-title {
 		font-size: 24px; /* Reduce font size for mobile */
 		text-align: center; /* Center the title */
-		margin-bottom: 15px;
+		margin: 0 0 15px 0; /* Ensure the title has margin at the bottom */
+		width: 100%; /* Ensure it takes the full width */
+		white-space: nowrap; /* Prevent the title from wrapping */
+		overflow: hidden; /* Hide overflow if the title is too long */
+		text-overflow: ellipsis; /* Show ellipsis if text overflows */
 	}
 
 	#meet-our-chef .section-description {
 		font-size: 16px; /* Adjust font size */
 		width: 90%; /* Reduce the width of the description */
 		margin: 0 auto; /* Center the description */
+		padding: 0 15px; /* Add padding to prevent text from touching the edges */
 	}
 
 	#meet-our-chef .section-text {
@@ -451,5 +458,6 @@ ul, ol {
 		line-height: 1.6;
 		width: 90%; /* Reduce the width of the text */
 		margin: 0 auto; /* Center the text */
+		padding: 0 15px; /* Add padding to prevent text from touching the edges */
 	}
 }
