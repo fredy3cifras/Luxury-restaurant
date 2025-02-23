@@ -420,33 +420,36 @@ ul, ol {
 
 /* Mobile Adjustments for "Meet Our Chef" Section */
 @media (max-width: 767px) {
-	/* Adjust Meet Our Chef Section */
+	/* Adjusting the "Meet Our Chef" Section */
 	#meet-our-chef {
-		padding: 50px 10px; /* Adjust padding for mobile */
+		padding: 20px 10px; /* Adjust padding for mobile */
+		width: 100%; /* Make sure the container takes up the full width */
+		box-sizing: border-box; /* Include padding in total width */
 	}
 
 	#meet-our-chef img {
-		width: 100%; /* Make the image responsive */
-		max-width: 100%;
-		height: auto; /* Ensure the height adjusts proportionally */
+		width: 100%; /* Ensure the image takes up the full width of the container */
+		max-width: 100%; /* Prevent image from overflowing */
+		height: auto; /* Maintain the image's aspect ratio */
+		object-fit: cover; /* Cover the container without distorting the image */
 	}
 
 	#meet-our-chef .section-title {
-		font-size: 24px; /* Reduce title font size */
-		text-align: center; /* Center-align the title */
+		font-size: 24px; /* Reduce font size for mobile */
+		text-align: center; /* Center the title */
 		margin-bottom: 15px;
 	}
 
 	#meet-our-chef .section-description {
-		font-size: 16px; /* Adjust font size for better readability */
-		width: 90%; /* Decrease the width to give some margin */
-		margin: 0 auto; /* Center-align the description */
+		font-size: 16px; /* Adjust font size */
+		width: 90%; /* Reduce the width of the description */
+		margin: 0 auto; /* Center the description */
 	}
 
 	#meet-our-chef .section-text {
-		font-size: 14px; /* Adjust font size for mobile */
+		font-size: 14px; /* Reduce font size */
 		line-height: 1.6;
-		width: 90%; /* Decrease width for mobile */
-		margin: 0 auto; /* Center-align text */
+		width: 90%; /* Reduce the width of the text */
+		margin: 0 auto; /* Center the text */
 	}
 }
