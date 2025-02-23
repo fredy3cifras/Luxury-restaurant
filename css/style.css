@@ -326,26 +326,6 @@ ul, ol {
 	margin: 0 -15px;
 }
 
-/* Team Section */
-#team {
-	padding: 120px 0;
-}
-
-#team h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
-
-#team img {
-	max-width: 550px;
-}
-
-#team .team-img {
-	display: inline-block;
-	position: relative;
-}
-
 /* Footer Section */
 #footer {
 	background: #262626;
@@ -405,8 +385,7 @@ ul, ol {
 
 #menu-section, /* Separator before Menu */
 #restaurant-menu::before,
-#gallery::before, #gallery::after,
-#meet-our-chef::before, #meet-our-chef::after {
+#gallery::before, #gallery::after {
 	content: '';
 	display: block;
 	border-top: 1px solid #f0f0f0;
@@ -418,46 +397,50 @@ ul, ol {
 	padding: 20px 0;
 }
 
-/* Mobile Adjustments for "Meet Our Chef" Section */
+
+/* New "Our Story" Section */
+#our-story {
+	padding: 100px 0;
+}
+
+#our-story h2 {
+	font-size: 36px;
+	color: #d4af37;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#our-story .content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#our-story .content img {
+	flex: 1 1 50%;
+	max-width: 100%;
+	height: auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#our-story .text {
+	flex: 1 1 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
 @media (max-width: 767px) {
-	/* Adjusting the "Meet Our Chef" Section */
-	#meet-our-chef {
-		padding: 20px 10px; /* Adjust padding for mobile */
-		width: 100%; /* Make sure the container takes up the full width */
-		box-sizing: border-box; /* Include padding in total width */
-		overflow: hidden; /* Hide overflow to avoid content spilling over */
+	#our-story .content {
+		flex-direction: column;
 	}
 
-	#meet-our-chef img {
-		width: 100%; /* Ensure the image takes up the full width of the container */
-		max-width: 100%; /* Prevent image from overflowing */
-		height: auto; /* Maintain the image's aspect ratio */
-		object-fit: cover; /* Cover the container without distorting the image */
-		object-position: center; /* Keep the center of the image visible */
+	#our-story .content img {
+		padding: 10px 0;
 	}
 
-	#meet-our-chef .section-title {
-		font-size: 24px; /* Reduce font size for mobile */
-		text-align: center; /* Center the title */
-		margin: 0 0 15px 0; /* Ensure the title has margin at the bottom */
-		width: 100%; /* Ensure it takes the full width */
-		white-space: nowrap; /* Prevent the title from wrapping */
-		overflow: hidden; /* Hide overflow if the title is too long */
-		text-overflow: ellipsis; /* Show ellipsis if text overflows */
-	}
-
-	#meet-our-chef .section-description {
-		font-size: 16px; /* Adjust font size */
-		width: 90%; /* Reduce the width of the description */
-		margin: 0 auto; /* Center the description */
-		padding: 0 15px; /* Add padding to prevent text from touching the edges */
-	}
-
-	#meet-our-chef .section-text {
-		font-size: 14px; /* Reduce font size */
-		line-height: 1.6;
-		width: 90%; /* Reduce the width of the text */
-		margin: 0 auto; /* Center the text */
-		padding: 0 15px; /* Add padding to prevent text from touching the edges */
+	#our-story .text {
+		padding: 10px 0;
 	}
 }
